@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The issue is that the camera preview may freeze or become unresponsive after scanning a barcode, especially if the `onBarCodeScanned` function performs a significant amount of processing or network requests. This behavior is intermittent, making it hard to debug.
